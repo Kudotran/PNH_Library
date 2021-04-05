@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Lobster;
+  src: url(font/Lobster-Regular.ttf);
+}
+@font-face {
+  font-family:Pacifico;
+  src: url(font/Pacifico-Regular.ttf);
+}
+img {
+  display: inline-block;
+  position: absolute;
+  width: 648px;
+  height: 707px;
+  left: 737px;
+  top: 60px;
+}
+.form_input {
+  position: absolute;
+  right: 765px;
+  top: 517px;
+  font-weight: 700;
+  width: 461px;
+  height: 40px;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__input {
+  position: absolute;
+  width: 461px;
+  height: 40px;
+  right: 765px;
+  font-weight: 700;
+  bottom: 328px;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_input:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.form__input:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.text {
+  position: absolute;
+  width: 413px;
+  height: 91px;
+  left: 162px;
+  top: 188px;
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  display: inline;
+  text-align: center;
+
+  color: #000000;
+}
+.Admin {
+  position: absolute;
+  width: 76px;
+  height: 44px;
+  left: 534px;
+  top: 6px;
+  border: 0;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  background-color: #27ae60;
+  color: #000000;
+}
+.Home {
+  position: absolute;
+  width: 114px;
+  height: 44px;
+  left: 133px;
+  top: 6px;
+  border: 0;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  background-color: #27ae60;
+  color: #000000;
+}
+button:hover {
+  cursor: pointer;
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+}
+button:active {
+  filter: none;
+  transform: scale(0.95);
+}
+.search_input {
+  position: absolute;
+  width: 421px;
+  height: 37px;
+  left: 901px;
+  top: 13px;
+  padding-left: 20px;
+  background: #fffefe;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+}
+.taskbar {
+  position: absolute;
+  width: 1406px;
+  height: 60px;
+  left: -22px;
+  top: 0px;
+
+  background: #27ae60;
+}
+.form {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+}
+.box {
+  position: absolute;
+  width: 525px;
+  height: 569px;
+  left: 106px;
+  top: 130px;
+
+  background: #ffffff;
+  border-radius: 18px;
+}
